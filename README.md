@@ -30,7 +30,7 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-$env:GEMINI_API_KEY="PASTE_YOUR_API_KEY_HERE"
+$env:GEMINI_API_KEY="AQ.Ab8RN6L_1wYlfH8xNdIWc693jEBIDVHPuYaaGMU5kUvab67UOw"
 streamlit run app.py
 ```
 
