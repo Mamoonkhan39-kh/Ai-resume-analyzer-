@@ -13,7 +13,7 @@ from google import genai
 from pypdf import PdfReader
 
 APP_TITLE = "Resume ATS Analyzer"
-DEFAULT_MODEL = "gemini-3.5-flash-lite"
+DEFAULT_MODEL = "gemini-3.8-flash"
 MAX_FILE_BYTES = 5 * 1024 * 1024
 
 
