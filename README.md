@@ -30,7 +30,7 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-$env:GEMINI_API_KEY="AQ.Ab8RN6L_1wYlfH8xNdIWc693jEBIDVHPuYaaGMU5kUvab67UOw"
+$env:GEMINI_API_KEY="PASTE_YOUR_API_KEY_HERE"
 streamlit run app.py
 ```
 
@@ -43,7 +43,7 @@ The app should open at `http://localhost:8501`.
 Create `.streamlit/secrets.toml` and add:
 
 ```toml
-GEMINI_API_KEY = "AQ.Ab8RN6L_1wYlfH8xNdIWc693jEBIDVHPuYaaGMU5kUvab67UOw"
+GEMINI_API_KEY = "PASTE_YOUR_API_KEY_HERE"
 ```
 
 Do not upload this file or commit your API key to GitHub. The app also reads `GEMINI_API_KEY` from the environment.
@@ -67,7 +67,7 @@ The README and requirements filenames must be exactly `README.md` and `requireme
 4. Open **Advanced settings** before deploying. In the **Secrets** field, add this TOML line:
 
    ```toml
-   GEMINI_API_KEY = "AQ.Ab8RN6L_1wYlfH8xNdIWc693jEBIDVHPuYaaGMU5kUvab67UOw"
+   GEMINI_API_KEY = "PASTE_YOUR_API_KEY_HERE"
    ```
 
 5. Choose Python 3.11 or 3.12 if prompted, then click **Save** / **Deploy**.
